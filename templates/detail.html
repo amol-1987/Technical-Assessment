@@ -1,0 +1,21 @@
+
+
+
+
+{% extends "index.html" %}
+{% load static %}
+
+{% block body_block %}
+
+
+		<h1>{{user}}</h1>
+		<h3>
+		<th>Name:-</th>  <td> {{user.profile_pic}}</td><br>
+	 	<th>Name:-</th>  <td> {{user.name}}</td><br>
+	 	<th>url:-</th>    <td> {{user.url}}</td><br>
+	 	<th>phone:-</th>    <td> {{user.phone}}</td><br>
+	 	</h3>
+	 
+
+{% endblock %}
+	

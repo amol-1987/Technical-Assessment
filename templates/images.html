@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+
+{% block body_block %}
+
+
+    <div class="container">
+      <h1>Please search images</h1>
+      <form method="GET">
+        <input type="text" name="search-area" value="{{search_input}}">
+        <input type="submit" value="Get Image">
+      </form>
+    </div>
+
+
+
+{% endblock %}
